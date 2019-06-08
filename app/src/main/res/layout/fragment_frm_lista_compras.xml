@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Fragments.FrmListaCompras">
+
+    <EditText
+        android:id="@+id/edit_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Nombre articulo"
+        />
+
+    <EditText
+        android:id="@+id/edit_cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Cantidad"
+        android:inputType="number"
+    />
+
+    <Button
+        android:id="@+id/button_tomardatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Datos"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTA DE ARTICULOS"
+        android:gravity="center"
+    />
+
+    <ListView
+        android:id="@+id/lstView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+
+</LinearLayout>
